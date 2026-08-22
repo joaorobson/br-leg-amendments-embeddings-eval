@@ -46,4 +46,3 @@ just_variacoes = ["justificação", "justificativa", "j u s t i f i c a ç ã o"
 df["texto_sem_justificativa"] = df.texto.apply(lambda x: extract_until_any(x,  just_variacoes))
 
 df["texto_preprocessado"] = df.texto_sem_justificativa.apply(extract_after_pl)
-df.to_parquet("data/PLP_68_2024_textos_emendas_preprocessados.parquet", index=False)
