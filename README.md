@@ -1,6 +1,6 @@
 # A Comparative Evaluation of Embedding Models for Retrieval and Clustering of Brazilian Legislative Amendments
 
-README in eng.
+[🇺🇸 English](README.en-US.md)
 
 ## Configuração do ambiente
 
