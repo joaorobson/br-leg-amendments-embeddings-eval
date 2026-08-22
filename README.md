@@ -10,15 +10,15 @@ uv sync
 
 * Coleta de metadados e PDFs
 ```
-uv run python src\retrieve_amendments.py
+uv run python scripts/retrieve_amendments.py
 ```
 * Extração do texto bruto dos PDFs
 ```
-uv run python src\extract_text.py
+uv run python src/extract_text.py
 ```
 * Gerar dataset com textos
 ```
-uv run python src\generate_dataset.py
+uv run python src/generate_dataset.py
 ```
 
 ## Pré-processamento e consolidação dos dados
@@ -29,7 +29,7 @@ uv run python src\generate_dataset.py
 * Gerar imagens das páginas dos PDFs das emendas:
     * Script:
         ```
-        uv run python pdfs_pages_to_images.py
+        uv run python scripts/pdfs_pages_to_images.py
         ```
     * JSON de saída: data/json/MPV_612_2013_label_studio.json
 * Anotar das regiões de interesse no [Label Studio](https://labelstud.io/):

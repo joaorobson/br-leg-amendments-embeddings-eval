@@ -1,6 +1,6 @@
 import requests
 import os
-from models import Amendment
+from data_collector.models import Amendment
 import re
 import pandas as pd
 import time

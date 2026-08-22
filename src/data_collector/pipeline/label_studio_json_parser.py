@@ -5,7 +5,7 @@ from typing import List
 
 from PIL import Image
 import pytesseract
-from models import Region, PageAnnotation
+from data_collector.models import Region, PageAnnotation
 
 class LabelStudioJsonParser:
 

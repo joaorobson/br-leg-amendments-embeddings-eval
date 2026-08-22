@@ -4,7 +4,7 @@ import json
 import pytesseract
 
 from PIL import Image
-from models.image import Region
+from data_collector.models import Region
 
 
 class TextExtractor:

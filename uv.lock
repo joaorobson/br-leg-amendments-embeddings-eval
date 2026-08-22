@@ -243,7 +243,7 @@ wheels = [
 [[package]]
 name = "artigo"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "bm25s", extra = ["full"] },
     { name = "google-cloud-aiplatform", extra = ["tokenization"] },
