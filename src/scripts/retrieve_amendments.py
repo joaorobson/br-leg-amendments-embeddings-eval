@@ -1,23 +1,26 @@
-from tasks import AmendmenstsRetriever
+from pipeline import AmendmenstsRetriever
 
 # Código MATE
 propostitions_codes = [
-    #'164914',  # PLP 68/2024
-    '137999'   # PEC 6/2019
+    '164914',  # PLP 68/2024
+    '137999',   # PEC 6/2019
+    '112122'    # MPV 612/2013
 ]
 
 propositions_names = {
-    #'164914': 'PLP_68_2024',
-    '137999': 'PEC_6_2019'
+    '164914': 'PLP_68_2024',
+    '137999': 'PEC_6_2019',
+    '112122': 'MPV_612_2013'
 }
 
 amendments_to_consider = {
-    #'164914': [],
-    '137999': set(list(range(1, 270)))
+    '164914': [],
+    '137999': set(list(range(1, 270))),
+    '112122': set(list(range(1, 221)))
 }
 
 PDFS_PATH = "data/pdfs"
-METADATA_PATH = "data"
+METADATA_PATH = "data/datasets"
 
 for code, name in propositions_names.items():
     print(code, name)

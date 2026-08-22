@@ -5,7 +5,7 @@ import re
 class DatasetGenerator:
     @staticmethod
     def extract_project_code(filename):
-        match = re.search(r'(PL|PLP|PEC|PLC|MP|PDL|PDC|PRC)_\d+_\d{4}', filename)
+        match = re.search(r'(PL|PLP|PEC|PLC|MP|PDL|PDC|PRC|MPV)_\d+_\d{4}', filename)
         return match.group(0) if match else None
     
     def txts_to_parquet(self, input_folder, output_parquet_path):

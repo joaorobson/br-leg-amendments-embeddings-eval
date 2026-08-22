@@ -5,16 +5,31 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "bm25s[full]>=0.3.9",
+    "google-cloud-aiplatform[tokenization]>=1.156.0",
+    "google-genai>=2.8.0",
+    "hdbscan>=0.8.44",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
+    "mteb[leaderboard]>=2.12.30",
+    "opencv-python>=4.13.0.92",
     "openpyxl>=3.1.5",
-    "pandas>=3.0.2",
+    "pandas<3.0",
     "pdfplumber>=0.11.9",
     "pillow>=12.2.0",
     "pyarrow>=24.0.0",
-    "pydantic>=2.13.3",
+    "pydantic<=2.12.4",
     "pymupdf>=1.27.2.2",
     "pytesseract>=0.3.13",
+    "python-docx>=1.2.0",
+    "rank-bm25>=0.2.2",
     "seaborn>=0.13.2",
+    "tiktoken>=0.13.0",
     "tqdm>=4.67.3",
+    "umap-learn>=0.5.12",
+]
+
+[tool.uv.workspace]
+members = [
+    "label_studio",
 ]
