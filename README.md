@@ -95,3 +95,11 @@ uv run python scripts/extract_text_from_images.py
 
 * [Open Source](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/notebooks/embeddings/Open-Source-Embeddings.ipynb)
 * [Proprietários](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/notebooks/embeddings/Closed-Source-Embeddings.ipynb)
+* BM25L:
+    * [Notebook](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/notebooks/embeddings/Closed-Source-Embeddings.ipynb)
+    * [Matrizes](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/data/bm25l)
+
+## Avaliação
+
+* [Retrieval]
+* [Clustering]
