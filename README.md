@@ -101,5 +101,5 @@ uv run python scripts/extract_text_from_images.py
 
 ## Avaliação
 
-* [Retrieval]
-* [Clustering]
+* [Retrieval](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/notebooks/tasks_eval/Retrieval-Eval.ipynb)
+* [Clustering](https://github.com/joaorobson/br-leg-amendments-embeddings-eval/blob/main/notebooks/tasks_eval/Clustering-Eval.ipynb)
